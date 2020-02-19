@@ -1,24 +1,20 @@
 {
-  "name": "burger",
+  "name": "node_what_todo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saryjamie/burger.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saryjamie/burger/issues"
-  },
-  "homepage": "https://github.com/saryjamie/burger#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
-  }
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.7.3",
+    "jquery": "^3.4.1",
+    "mysql": "^2.18.1",
+    "node": "^13.8.0"
+  },
+  "devDependencies": {}
 }
